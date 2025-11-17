@@ -103,14 +103,12 @@ A|Przypadków użycia, ale z pominięciem scenariuszy alternatywnych
 B|Kilkuzadaniowych opisów, tzw. historii użytkowania|CORRECT
 C|W metodyce XP nie dokumentuje się wymagań
 
-Q|22|Dany jest ciąg wolnych przepływów pieniężnych generowanych przez projekt: CFi, 
-gdzie i=1 …N – numer kolejnego roku prognozy. Rozpatrzymy dwie stopy dyskontowe r1 > r2, i wartości NPV1 i NPV2 dla tego projektu obliczone przy odpowiednio stopie dyskontowej r1 i r2. Które z poniższych jest zawsze prawdziwe:
+Q|22|Dany jest ciąg wolnych przepływów pieniężnych generowanych przez projekt: CFi, gdzie i=1 …N – numer kolejnego roku prognozy. Rozpatrzymy dwie stopy dyskontowe r1 > r2, i wartości NPV1 i NPV2 dla tego projektu obliczone przy odpowiednio stopie dyskontowej r1 i r2. Które z poniższych jest zawsze prawdziwe:
 A|2NPV1 + NPV2 < 3NPV1
 B|NPV1 + NPV2 < 2*NPV2|CORRECT
 C|NPV1 + NPV2 < 2*NPV1
 
-Q|22|Dany jest ciąg wolnych przepływów pieniężnych generowanych przez projekt: CFi, 
-gdzie i=1 …N – numer kolejnego roku prognozy. Rozpatrzymy dwie stopy dyskontowe r1 < r2, i wartości NPV1 i NPV2 dla tego projektu obliczone przy odpowiednio stopie dyskontowej r1 i r2. Które z poniższych jest zawsze prawdziwe:
+Q|22|Dany jest ciąg wolnych przepływów pieniężnych generowanych przez projekt: CFi, gdzie i=1 …N – numer kolejnego roku prognozy. Rozpatrzymy dwie stopy dyskontowe r1 < r2, i wartości NPV1 i NPV2 dla tego projektu obliczone przy odpowiednio stopie dyskontowej r1 i r2. Które z poniższych jest zawsze prawdziwe:
 A|2NPV1 + NPV2 < 3NPV1
 B|NPV1 + NPV2 < 2*NPV2
 C|NPV1 + NPV2 < 2*NPV1|CORRECT
