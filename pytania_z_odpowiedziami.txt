@@ -1,339 +1,268 @@
-Q|1|Zapewnienie możliwości obsługi 1000 transakcji na minutę to przykład:
-A|Wymagania krytycznego
-B|Wymagania funkcjonalnego
-C|Wymagania pozafunkcjonalnego|CORRECT
-
-Q|2|Studium wykonalności w projekcie informatycznym wykonuje się:
-A|Przed dokonaniem pełnej analizy wymagań|CORRECT
-B|Na początku projektowania architektury systemu
-C|Po zakończeniu projektu, w ramach oceny jego wykonania
-
-Q|3|Model kaskadowy wytwarzania oprogramowania sprawdza się w przypadku:
-A|projektów o łatwym do określenia i stabilnych wymaganiach|CORRECT
-B|przedsięwzięć o nieprecyzyjnych i zmiennych wymaganiach
-C|złożonych projektów, obarczonych wysokim ryzykiem niepowodzenia
-
-Q|4|Celem tworzenia prototypów oprogramowania jest:
-A|oszacowanie czasu trwania całego projektu
-B|zapoznanie zespołu z narzędziami i środowiskiem wytwórczym
-C|minimalizacja ryzyka błędnego określenia wymagań|CORRECT
-
-Q|5|W przypadku, gdy spodziewamy się dużej zmienności wymagań w trakcie projektu to
-A|Proces V sprawdzi się lepiej niż proces kaskadowy
-B|Sprawdzi się skonstruowanie prototypu
-C|Sprawdzi się proces iteracyjny|CORRECT
-
-Q|6|Dokumentacja wymagań w procesie RUP ma formę
-A|Hierarchicznej listy funkcji i podfunkcji
-B|Niesformalizowanego opisu słownego
-C|Przypadków użycia|CORRECT
-
-Q|7|Przyjęty czas trwania iteracji w metodykach zwinnych
-A|Jest nieprzekraczalny|CORRECT
-B|Może w wyjątkowej sytuacji ulec wydłużeniu
-C|Dopasowuje się do aktualnej sytuacji
-
-Q|8|Punkty obiektowe wyrażają:
-A|Jakość oprogramowania
-B|Rozmiar oprogramowania|CORRECT
-C|skomplikowanie klas w programowaniu obiektowym
-
-Q|9|W metodzie COCOMO przyjmuje się, że
-A|Łatwiej oszacować nakład pracy niż rozmiar oprogramowania
-B|Nakład pracy jest wprost proporcjonalny do rozmiaru oprogramowania
-C|Szacowanie rozmiaru jest punktem wyjścia do szacowania nakładu pracy|CORRECT
-
-Q|10|Poziomy dojrzałości procesu wytwarzania oprogramowania są zdefiniowane w:
-A|Normie ISO 9126
-B|Normie ISO 9001
-C|Standardzie CMM|CORRECT
-
-Q|11|Do analizy wymagań należy:
-A|Ocena jakości procesów biznesowych w firmie użytkownika
-B|Określenie funkcji oferowanych przez oprogramowanie|CORRECT
-C|Dobranie właściwej technologii, która pozwoli zaimplementować wymagania
-
-Q|12|Wymaganie by oprogramowanie było przenośne pomiędzy systemem Linux oraz MacOS jest:
-A|a. Wymaganiem funkcjonalnym
-B|b. Wymaganiem pozafunkcjonalnym|CORRECT
-C|c. Wymaganiem zgodności
-
-Q|13|Model V konstrukcji oprogramowania jest:
-A|Szczególnym przypadkiem modelu konstrukcji prototypów
-B|Odmianą modelu kaskadowego o dużym nacisku na jakość tworzonego systemu|CORRECT
-C|Odmianą modelu spiralnego
-
-Q|14|W porównaniu do procesu kaskadowego, proces iteracyjny charakteryzuje się:
-A|Łatwiejszą adaptacją do zmian w wymaganiach|CORRECT
-B|Łatwiejszym planowaniem procesu (harmonogramu prac)
-C|Żadne z powyższych
-
-Q|15|Proces wytwarzania oprogramowania rynkowego jest najlepiej odzwierciedlony jest:
-A|Model kaskadowy
-B|Model spiralny|CORRECT
-C|Model wytwarzania transformacyjnego, np.: MDA
-
-Q|16|Kolejne fazy RUP to:
-A|Przygotowanie, opracowanie, konstrukcja, przekazanie|CORRECT
-B|Analiza wymagań, projektowanie, implementacja, testowanie
-C|Planowanie, analiza ryzyka, konstrukcja, atestowanie
-
-Q|17|Dokumentacja wymagań w metodyce XP ma formę:
-A|Przypadków użycia, ale z pominięciem scenariuszy alternatywnych
-B|Kilkuzadaniowych opisów, tzw. historii użytkowania|CORRECT
-C|W metodyce XP nie dokumentuje się wymagań
-
-Q|18|W porównaniu do liczby linii kodu punkty funkcyjne są:
-A|Łatwiejsze do wyznaczenia na początku projektu|CORRECT
-B|Trudniejsze do wyznaczenia na początku projektu
-C|Mniej miarodajne
-
-Q|19|W metodzie COCOMO II do określenia rozmiaru oprogramowania wykorzystuje się:
-A|Tylko punkty funkcyjne
-B|Tylko punkty obiektowe
-C|Zarówno punkty funkcyjne jak i obiektowe|CORRECT
-
-Q|20|Pojęcie jakości oprogramowania jest zdefiniowane w :
-A|Normie ISO 9126|CORRECT
-B|Normach z rodziny ISO 9000
-C|Standardzie CMM
-
-Q|21|Dokumentacja wymagań w metodyce XP ma formę:
-A|Przypadków użycia, ale z pominięciem scenariuszy alternatywnych
-B|Kilkuzadaniowych opisów, tzw. historii użytkowania|CORRECT
-C|W metodyce XP nie dokumentuje się wymagań
-
-Q|22|Dany jest ciąg wolnych przepływów pieniężnych generowanych przez projekt: CFi, gdzie i=1 …N – numer kolejnego roku prognozy. Rozpatrzymy dwie stopy dyskontowe r1 > r2, i wartości NPV1 i NPV2 dla tego projektu obliczone przy odpowiednio stopie dyskontowej r1 i r2. Które z poniższych jest zawsze prawdziwe:
-A|2NPV1 + NPV2 < 3NPV1
-B|NPV1 + NPV2 < 2*NPV2|CORRECT
-C|NPV1 + NPV2 < 2*NPV1
-
-Q|22|Dany jest ciąg wolnych przepływów pieniężnych generowanych przez projekt: CFi, gdzie i=1 …N – numer kolejnego roku prognozy. Rozpatrzymy dwie stopy dyskontowe r1 < r2, i wartości NPV1 i NPV2 dla tego projektu obliczone przy odpowiednio stopie dyskontowej r1 i r2. Które z poniższych jest zawsze prawdziwe:
-A|2NPV1 + NPV2 < 3NPV1
-B|NPV1 + NPV2 < 2*NPV2
-C|NPV1 + NPV2 < 2*NPV1|CORRECT
-
-Q|23|Które zdanie jest prawdziwe?
-A|Zasadniczym celem inicjacji projektu jest zdefiniowanie uzasadnienia biznesowego natomiast przygotowanie projektu służy określeniu jego zakresu
-B|Przygotowanie projektu wymaga zatwierdzonego budżetu projektu, inicjacja zaś zatwierdzonych zasobów do realizacji projektu
-C|Przygotowanie projektu służy zdefiniowaniu projektu(cele, zakres, rezultaty…) a inicjacja służy powołaniu i uruchomieniu struktur organizacyjnych realizujących projekt|CORRECT
-
-Q|24|Zasadniczym wyzwaniem w zarządzaniu projektem informatycznym jest:
-A|zarządzanie ryzykiem i jakością
-B|zarządzanie zakresem, czasem i budżetem|CORRECT
-C|zarządzanie zakresem i jakością
-
-Q|25|Wymaganie by oprogramowanie było przenośne pomiędzy systemem Linux oraz MacOS jest:
-A|Wymaganiem funkcjonalnym
-B|Wymaganiem pozafunkcjonalnym|CORRECT
-C|Wymaganiem zgodności
-
-Q|26|Która z reakcji na ryzyko zmniejsza prawdopodobieństwo zrealizowania się ryzyka?
-A|Wprowadzenie mechanizmów zabezpieczających przed wystąpieniem danego zdarzenia|CORRECT
-B|Zdefiniowanie planu awaryjnego na wypadek zrealizowania się ryzyka
-C|Wprowadzenie mechanizmów zabezpieczających przed skutkami danego zdarzenia
-
-Q|27|Proces wytwarzania oprogramowania rynkowego jest najlepiej odzwierciedlony jest:
-A|Model kaskadowy
-B|Model spiralny|CORRECT
-C|Model wytwarzania transformacyjnego, np.: MDA
-
-Q|28|Które ze zdań jest prawdziwe?
-A|Zakres projektu w metodykach klasycznych (PRINCE2/PMBOK) nie podlega zmianom(tzw. Waterfall), może być zmieniany w metodykach zwinnych (AGILE)|CORRECT
-B|Zakres projektu w metodykach zwinnych i klasycznych (PRINCE2/PMBOK) może być zmieniany
-C|Żadne z powyższych
-
-Q|29|Sponsor projektu w prawidłowo zarządzanym przedsięwzięciu:
-A|Może pełnić w projekcie kluczową rolę zarządczą|CORRECT
-B|Musi pełnić kluczową rolę zarządczą
-C|Nie może pełnić w projekcie kluczowej roli zarządczej
-
-Q|30|Które ze zdań NIE jest prawdziwe?
-A|Suma luzów czynności wchodzących w skład ścieżki krytycznej jest większa równa 0
-B|Wydłużenie czasu realizacji zadania ze ścieżki krytycznej spowoduje wydłużenie projektu
-C|Suma różnic czasów późnego startu i wczesnego startu czynności wchodzących w skład ścieżki krytycznej jest większa niż 0|CORRECT
-
-Q|31|W harmonogramie projektu wyróżniono 10 czynności. Ścieżka krytyczna obejmuje 5 czynności. Suma czasów wykonania zadań nie wchodzących w skład ścieżki krytycznej:
-A|Może być większa od długości ścieżki krytycznej|CORRECT
-B|Musi być mniejsza od długości ścieżki krytycznej
-C|Musi być taka, jak długość ścieżki krytycznego
-
-Q|32|Która z poniższych odpowiedzi jest prawdziwa?
-A|Czas zakończenia projektu jest nie określony
-B|Projekt to przedsięwzięcie stale realizowane działalności firmy
-C|Projekt to tymczasowe przedsięwzięcie w działalności firmy|CORRECT
-
-Q|33|Które z poniższych stanowi ryzyko w projekcie informatycznym?
-A|Występujące w projekcie konflikty
-B|Możliwość wzrostu cen pamięci|CORRECT
-C|Dzisiejsza awaria sieci i brak dostępu programistów do repozytorium
-
-Q|34|Fakt, że dwa dowolne projekty inwestycyjne mają taką samą stopę zwrotu z inwestycji oznacza, że
-A|Obie inwestycje są tak samo opłacalne i warte realizacji pod warunkiem, że stopa zwrotu jest wyższa od stopy zwrotu z inwestycji alternatywnych|CORRECT
-B|Obie inwestycje są tak samo opłacalne i warte realizacji
-C|Żadne z pozostałych
-
-Q|35|Zasadniczym wyzwaniem w zarządzaniu projektem informatycznym jest zarządzanie:
-A|Zasobami ludzkimi
-B|Zakresem|CORRECT
-C|Jakością
-
-Q|36|Zakres projektu:
-A|Może podlegać zmianom w metodykach klasycznych (PRINCE2/PMBOK)
-B|Zmiany zakresu projektu uwzględniają jedynie metodyki zwinne (AGILE)
-C|Jest niezmienny w projekcie realizowany metodykami klasycznymi (PRINCE2/PMBOK)|CORRECT
-
-Q|37|W harmonogramie projektu wyróżniono 10 zadań, każde z nich wymaga tego samego czasu na realizację wynoszącego 13 dni. Które ze zdań jest prawdziwe biorąc pod uwagę wszystkie możliwe harmonogramy projektów o powyższej właściwości?
-A|Najmniejszy luz pojedynczej czynności w takim projekcie wynosi 13
-B|Największy luz czynności w tym projekcie może być większy niż 13|CORRECT
-C|Suma luzów wszystkich zadań w projekcie jest większa niż 0 dla wszystkich projektów
-
-Q|38|Plany awaryjne, jako sposób reakcji na ryzyko:
-A|Zmniejsza prawdopodobieństwo zrealizowania się ryzyka i ograniczają jego skutki
-B|Zmniejszają skutki zrealizowania się ryzyka|CORRECT
-C|Żadne z pozostałych
-
-Q|39|Cel przedsięwzięcia:
-A|Nie musi być osiągalny w przypadku programu i musi być osiągany w przypadku projektu
-B|Musi być osiągalny w przypadku programu i musi być osiągalny w przypadku projektu|CORRECT
-C|Nie musi być zdefiniowany w programie, musi być określony w projekcie
-
-Q|40|W harmonogramie występuje następująca struktura zadań (A | B | C) -> (D | E | F), gdzie „|” znaczy wykonanie równoległe z inną czynnością, a „->” – wykonanie czynności po zakończeniu grupy czynności. Niech T[i] oznacza czas wykonania czynności i ze zbioru czynności {A,B,C,D,E,F}. Długości ścieżki krytycznej wynosi:
-A|min{T[A], T[B], T[C]} + min{T[D], T[E], T[F]}
-B|max {T[A], T[B], T[C], T[E], T[F]}
-C|max{T[A], T[B], T[C]} + max {T[D], T[E], T[F]}|CORRECT
-
-Q|40|W harmonogramie występuje następująca struktura zadań (A | B | C) -> ( D ) ->(E | F), gdzie „|” znaczy wykonanie równoległe z inną czynnością, a „->” – wykonanie czynności po zakończeniu grupy czynności. Niech T[i] oznacza czas wykonania czynności i ze zbioru czynności {A,B,C,D,E,F}. Długości ścieżki krytycznej wynosi:
-A|max {T[A], T[B], T[C], T[E], T[F]}
-B|min{T[A], T[B], T[C]} + min {T[D]} + min {T[E], T[F]) }
-C|max{T[A], T[B], T[C]} + T[D] + max {T[E], T[F]) }|CORRECT
-
-Q|41|Które z poniższych stanowi ryzyko w projekcie informatycznym?
-A|Zdarzenie, które może nastąpić za tydzień|CORRECT
-B|Zdarzenie, które wydarzyło się tydzień temu
-C|Zdarzenie, które nastąpi za tydzień
-
-Q|42|Obsadzenie sponsora w roli kluczowego decydenta w projekcie:
-A|Nie wymaga żadnych dodatkowych czynności, gdyż z uwagi na możliwości decyzyjne jest to właściwa osoba do roli kluczowego zarządzania projekcie
-B|Nie jest praktykowane, z uwagi na obciążenie takiej osoby innymi obowiązkami
-C|Wymaga rozważenia zakres jego innych obowiązków|CORRECT
-
-Q|43|Które ze zdań jest prawdziwe? Wybierz jedną odpowiedź:
-A|Inicjacja projektu kończy się zatwierdzeniem jego realizacji|CORRECT
-B|Inicjacja projektu wymaga decyzji o przystąpieniu do jego realizacji
-C|Przygotowanie i inicjacja projektu to w istocie te same czynności
-
-Q|44|Według standardu CMM celem firmy powinno byc:
-A|znalezienie optymalnego procesu wytwarzania
-B|ciągłe optymalizowanie procesu wytwarzania|CORRECT
-C|dążenie do osiągnięcia maksymalnego zadowolenia użytkowników
-
-Q|45|Według normy ISO 9126 oprogramowanie jest użyteczne jeśli
-A|posiada potrzebne użytkownikowi funkcje
-B|jest łatwe do nauczenia sie|CORRECT
-C|jest odporne na bledy środowiska (np. utrata dostępu do sieci)
-
-Q|46|W metodzie COCOMO II dokładność szacowania
-A|rośnie z postępem prac|CORRECT
-B|maleje z postępem prac
-C|nie zależy od postępu prac
-
-Q|47|W porównaniu do liczby linii kodu, punkty funkcyjne są
-A|łatwiejsze do wyznaczenia na początku projektu|CORRECT
-B|trudniejsze do wyznaczenia na początku projektu
-C|mniej miarodajne
-
-Q|48|RUP jest procesem:
-A|kaskadowym z możliwością nawrotów
-B|opartym na budowie prototypów
-C|iteracyjno-przyrostowym|CORRECT
-
-Q|49|Proces iteracyjny charakteryzuje sie
-A|koniecznością wykonywania testów regresyjnych|CORRECT
-B|ułatwionym harmonogramem prac
-C|utrudnionym wprowadzaniem zmian
-
-Q|50|Model V konstrukcji oprogramowania jest:
-A|odmiana modelu przyrostowego
-B|odmiana modelu kaskadowego|CORRECT
-C|odmiana modelu spiralnego
-
-Q|51|Zgodę na zmianę kosztów w umowie dot. projektów wydaje
-A|kierownik projektu
-B|komitet sterujący projektu|CORRECT
-C|żadne z powyższych
-
-Q|52|które ze stwierdzeń na temat wymagań jest nieprawdziwe:
-A|łatwość usuwania błędów w systemie nie jest wymaganiem|CORRECT
-B|wymaganie pozafunkcjonalne może przekształcić sie w wymaganie funkcjonalne
-C|wymagania użytkownika są bardziej ogólne niż wymagania systemowe
-
-Q|53|Które z poniższych stanowi ryzyko w projekcie informatycznym?
-A|zaplanowany na przyszły tydzień wzrost cen licencji niezbędnego oprogramowania
-B|przewidywany z prawdopodobieństwem 10% wzrost cen licencji niezbędnego oprogramowania w przyszłym tygodniu
-C|wzrost cen licencji niezbędnego oprogramowania, który nastąpił w zeszłym tygodniu
-
-Q|54|Które ze zdań jest prawdziwe?
-A|wszyscy członkowie zespołu projektowego muszą zostać określeni w fazie koncepcji
-B|problemy z oprogramowaniem naprawiane są w fazie zakończenia projektu
-C|szczegółowe wymagania techniczne mogą być ustalane w fazie wykonania projektu
-
-Q|55|W przypadku metody wartości zaktualizowanej netto (NPV), jak zwykle określa się stopę dyskontową?
-A|jako oczekiwany procent zwrotu z planowanej inwestycji
-B|jako procent zwrotu którego oczekują dostarczyciele kapitału do inwestycji|CORRECT
-C|jako współczynnik przewidywalnych zysków do przewidywalnych kosztów
-
-Q|56|Przeniesienie, jako sposób reakcji na ryzyko:
-A|realizowania się ryzyka
-B|zmniejsza prawdopodobieństwo zrealizowania się ryzyka i ogranicza jego skutki
-C|żadne z powyższych
-
-Q|57|Do analizy przedwdrożeniowej należy:
-A|ocena jakości procesów biznesowych w firmie użytkownika
-B|usprawnienie procesów biznesowych w firmie użytkownika
-C|żadne z powyższych
-
-Q|58|Celem studium wykonalności w projekcie informatycznym jest:
-A|ocena zasadności projektu
-B|ocena bieżących postępów w projekcie
-C|ocena zrealizowanego zakresu projektu (na jego koniec)
-
-Q|59|Punkty obiektowe:
-A|są mniej miarodajne niż liczba linii kodu
-B|są łatwiejsze do policzenia niż punkty funkcyjne
-C|powstały z myślą o programowaniu obiektowym|CORRECT
-
-Q|60|W metodzie COCOMO przyjmuje się, że:
-A|nakład pracy jest wprost proporcjonalny do rozmiaru oprogramowania
-B|nakład pracy nie zależy od rozmiaru oprogramowania
-C|łatwiej oszacować rozmiar oprogramowania niż nakład pracy
-
-Q|61|Wg normy ISO 9126 oprogramowanie jest funkcjonalne jeśli:
-A|nie posiada zbędnych funkcji
-B|jego funkcje są łatwe do zrozumienia dla użytkownika
-C|pozwala na łatwe wprowadzanie zmian w funkcjonalności
-
-Q|61|Wg standardu CMM celem firmy powinno być:
-A|dążenie do osiągnięcia maksymalnej jakości produktu
-B|dążenie do osiągnięcia maksymalnego zadowolenia użytkowników
-C|pomiary i optymalizacja procesu wytwarzania produktu
-
-Q|62|Która z poniższych metod szacowania nakładów inwestycyjnych jest najmniej precyzyjna?
-A|szacowanie z dołu do góry
-B|szacowanie z góry na dół|CORRECT
-C|przez analizę ofert dostawców
-
-Q|63.Przeniesienie, jako sposób reakcji na ryzyko:
-A|….. zrealizowania się ryzyka
-B|zmniejsza prawdopodobieństwo zrealizowania się ryzyka i jego skutki
-C|żadne z powyższych|CORRECT
-
-Q|64|W harmonogramie projektu wyróżniono czynności A, B, C, D, E, F. Ścieżka krytyczna obejmuje A, B, C i D. Suma czasów wykonania zadań E i F:
-A|musi być mniejsza od długości ścieżki krytycznej
-B|może być większa od długości ścieżki krytycznej, ale musi być mniejsza niż dwukrotność ścieżki krytycznej
-C|może być większa od dwukrotności długości ścieżki krytycznej.|CORRECT
-
-Q|65|Która z reakcji na ryzyko umożliwia stworzenie planu awaryjnego na wypadek zalania serwerowni powodzią?
-A|budowa serwerowni w miejscu gdzie historycznie nie występowały powodzie
-B|ubezpieczenie wykupione na wypadek zalania
-C|budowa zapasowej serwerowni w innej lokalizacji|CORRECT
+Q|1|Tunelowanie portow zdalnych umozliwia:
+A|Polaczenie ze zdalnego klienta do lokalnego serwera
+B|Polaczenie z lokalnego klienta do zdalnego serwera
+C|Polaczenie z lokalnego klienta do lokalnego serwera
+D|Polaczenie ze zdalnego klienta do zdalnego serwera|CORRECT
+
+Q|2|RMON sluzy do:
+A|Zbierania statystyk warstwy fizycznej sieci (Ethernet i Token Ring)|CORRECT
+B|Zarzadzania urzadzeniami sieciowymi
+C|Monitorowania sieci wykorzystujacych protokoly IPX i SNA
+D|Monitorowania calych segmentow sieci|CORRECT
+
+Q|3|Jakie sa zalety centralnej autoryzacji np. przy pomocy protokolu LDAP:
+A|Pozwala na zwiekszenie odpornosci systemu autoryzacji na ataki DoS
+B|Pozwala na latwiejsze utrzymanie porzadku i skuteczne kasowanie nieuzywanych kont|CORRECT
+C|Pozwala na zwiekszenie niezawodnosci i wydajnosci systemu autoryzacji|CORRECT
+D|Pozwala uzytkownikom stosowac jedno haslo na wielu serwerach|CORRECT
+
+Q|4|Na powstanie opoznien w transmisji glosu w sieciach komputerowych wplyw maja:
+A|Czas podniesienia sluchawki przez abonenta
+B|Rodzaj zastosowanego standardu kodowania mowy|CORRECT
+C|Czas propagacji w medium transmisyjnym|CORRECT
+D|Czas serializacji|CORRECT
+
+Q|5|Jakie mechanizmy moga byc wykorzystane do walki ze spamem:
+A|Autoryzacja nadawcow|CORRECT
+B|SenderID|CORRECT
+C|Czarne listy|CORRECT
+D|SPF|CORRECT
+E|Tunelowanie portow
+F|Podzielony DNS
+G|Dynamiczny DNS
+
+Q|6|Czy w celu zabezpieczenia przed atakami DoS wystarczy uruchomic na tej samej maszynie serwer buforujacy i autorytatywny jako osobne procesy:
+A|Tak, bo tylko serwer buforujacy bedzie atakowany
+B|Nie, bo atak DoS prowadzi do przeciazenia maszyny i w konsekwencji do niedostepnosci obu serwerow|CORRECT
+C|Tak, bo tylko serwer autorytatywny bedzie atakowany
+D|Nie, bo atak DoS prowadzi do zmiany zawartosci strefy i w konsekwencji do zlego dzialania obu serwerow
+
+Q|7|Standard SNMPv3 wprowadzil:
+A|Szyfrowanie zawartosci komunikatu|CORRECT
+B|Kryptograficzne metody zapewnienia nienaruszalnosci komunikatu|CORRECT
+C|Dwa dodatkowe komunikaty PDU (Protocol Data Unit)
+D|Uwierzytelnienie zrodla pochodzenia komunikatu|CORRECT
+
+Q|8|Jakie mozliwosci oferuje protokol ESP:
+A|Kontrole integralnosci danych|CORRECT
+B|Szyfrowanie danych|CORRECT
+C|Kompresje danych
+D|Szyfrowanie adresow MAC
+E|Kontrole adresow MAC
+F|Autentykacje|CORRECT
+
+Q|9|Zastosowany standard kodowania mowy:
+A|Nie ma wplywu na odpornosc na utrate pakietow
+B|Ma wplyw na jakosc odtwarzania glosu|CORRECT
+C|Ma wplyw na wymagana przepustowosc lacza|CORRECT
+D|Nie ma wplywu na czas trwania rozmowy telefonicznej|CORRECT
+
+Q|10|Baza MIB (Management Information Base):
+A|Ma strukture drzewiasta|CORRECT
+B|Sklada sie z wielu wzajemnie ze soba powiazanych tablic|CORRECT
+C|Moze zawierac odwolania do zewnetrznych baz danych
+D|Moze byc rozbudowywana przez producentow sprzetu i oprogramowania|CORRECT
+
+Q|11|Jaki jest cel stosowania autoryzacji nadawcy w protokole ESMTP:
+A|Pozwala sprawdzac tozsamosc serwerow pocztowych odbierajacych poczte
+B|Pozwala stosowac zakaz przekazywania obcej poczty i jednoczesnie umozliwia legalnym uzytkownikom wysylanie poczty pod dowolne adresy
+C|Pozwala odrzucac spam adresowany do lokalnych uzytkownikow
+D|Pozwala sprawdzac tozsamosc serwerow pocztowych przekazujacych poczte|CORRECT
+
+Q|12|Do czego sluzy SRS:
+A|Do modyfikowania adresu odbiorcy
+B|Do umozliwienia przekazywania poczty mimo stosowania SPF|CORRECT
+C|Do szyfrowania zawartosci przesylki
+D|Do umozliwienia rozysylania spamu
+
+Q|13|Jakie sa cele stosowania podzielonego DNSa:
+A|Ukrycie informacji i wykorzystywanych adresach prywatnych|CORRECT
+B|Ukrycie informacji o maszynach nie swiadczacych uslug dla zewnetrznych klientow|CORRECT
+C|Umozliwienie wspoladministrowania czescia informacji o strefie dodatkowym administratorom
+D|Ukrycie przed intruzami informacji o serwerze pocztowym
+
+Q|14|Utrata pakietow przy transmisji glosu:
+A|Wplywa na jakosc rozmowy|CORRECT
+B|Musi spowodowac zwiekszenie przepustowosci lacza, zwiazane z koniecznoscia retransmisji utraconych pakietow
+C|Nie ma zadnego znaczenia
+D|Jest tolerowana w stopniu zaleznym od wybranego algorytmu kodowania glosu|CORRECT
+
+Q|15|Architektura systemu zarzadzania bazujacego na SNMP (Simple Network Management Protocol) zaklada, ze kazde z zarzadzanych urzadzen posiada:
+A|Superagenta
+B|Baze MIB|CORRECT
+C|Agenta|CORRECT
+D|Modul wykonawczy
+
+Q|16|Co to jest odpowiedz autorytatywna w systemie DNS:
+A|Odpowiedz udzielona przez glowny serwer strefy glownej
+B|Odpowiedz udzielona przez serwer strefy glownej
+C|Odpowiedz udzielona przez serwer odpowiedzialny za dana strefe i oznaczona specjalna flaga|CORRECT
+D|Odpowiedz udzielona przez glowny serwer strefy nadrzednej
+E|Odpowiedz udzielona przez serwer strefy nadrzednej i oznaczona specjalna flaga
+
+Q|17|Protokol RSVP (Resource Reservation Protocol) sluzy do:
+A|Niezawodnej transmisji pakietow glosowych
+B|Zapewnienia jakosci transmisji na calej trasie danych|CORRECT
+C|Kontroli dostepnego pasma (na etapie zestawiania polaczenia)|CORRECT
+D|Wymiany informacji miedzy urzadzeniami|CORRECT
+
+Q|18|Na czym polega zatruwanie serwerow DNS:
+A|Na skasowaniu informacji z pamieci notatnikowej prawdziwych informacji
+B|Na wprowadzaniu duzej ilosci informacji do ich pamieci notatnikowej w celu spowolnienia ich dzialania
+C|Na wprowadzaniu do pamieci notatnikowej informacji, ktora spowoduje zawieszenie serwera
+D|Na wprowadzaniu falszywej informacji do ich pamieci notatnikowej|CORRECT
+
+Q|19|Co oznacza rekord SPF: b.com. IN TXT "v=apf1 mx:a.com a:mx.com -all":
+A|Listy z adresami ktos@b.com maja prawo nadawac komputery wymienione w rekordach MX strefy a.com oraz komputer mx.com|CORRECT
+B|Listy z adresami ktos@a.com maja prawo nadawac komputery wymienione w rekordach MX strefy b.com oraz komputer mx.com
+C|Listy z adresami ktos@mx.com maja prawo nadawac komputery wymienione w rekordach MX strefy b.com oraz komputer a.com
+D|Listy z adresami ktos@b.com maja prawo nadawac komputery wymienione w rekordach MX strefy a.com z wyjatkiem komputera mx.com
+
+Q|20|Jaka role spelnia program ssh-agent:
+A|Umozliwia wykorzystanie niezaszyfrowanych kluczy prywatnych bez wielokrotnego podawania frazy deszyfrujacej
+B|Umozliwia wielokrotne podawanie frazy deszyfrujacej
+C|Umozliwia wykorzystanie zaszyfrowanych kluczy bez wielokrotnego podawania frazy deszyfrujacej|CORRECT
+D|Umozliwia wykorzystanie niezaszyfrowanych kluczy publicznych
+
+Q|21|Tryb transportowy protokolu IPSec umozliwia polaczenia:
+A|Maszyna-siec
+B|Siec-siec
+C|Maszyna-maszyna|CORRECT
+
+Q|22|Konfiguracja urzadzen sieciowych jest mozliwa przez:
+A|Polaczenie sieciowe z wykorzystaniem aplikacji takich jak telnet lub SSH|CORRECT
+B|Przegladarke WWW|CORRECT
+C|Systemy bazujace np. na SNMP|CORRECT
+D|Bezposrednie podlaczenie konsoli (np. przez lacze szeregowe)|CORRECT
+
+Q|23|Co pozwala zweryfikowac podpis elektroniczny:
+A|Czy serwer, ktory przyjmuje polaczenie ma prawo otrzymywac listy z takim adresem odbiorcy
+B|Czy serwer, ktory nawiazal polaczenie ma prawo nadawac listy z takim adresem nadawcy
+C|Czy nadawca jest rzeczywiscie wlascicielem adresu wymienionego jako adres nadawcy|CORRECT
+D|Czy serwer, ktory przyjmuje polaczenie ma prawo otrzymywac listy z takim adresem nadawcy
+E|Czy odbiorca jest rzeczywiscie wlascicielem adresu wymienionego jako adres odbiorcy
+F|Czy serwer, ktory nawiazal polaczenie ma prawo nadawac listy z takim adresem odbiorcy
+
+Q|24|Jakie dzialania maja wplyw na podniesienie wydajnosci lacz w transmisji dzwieku przez siec komputerowa:
+A|Zapewnienie odpowiedniej sygnalizacji QoS|CORRECT
+B|Podzial wszystkich pakietow na niewielkie fragmenty|CORRECT
+C|Odpowiedni dobor standardow kodowania mowy|CORRECT
+D|Kompresja naglowkow|CORRECT
+
+Q|25|Jakie metody autoryzacji oferuje program SSH:
+A|Przy pomocy tunelowania plikow shadow
+B|Na podstawie odcisku palca
+C|Na podstawie obrazu teczowki
+D|Przy pomocy hasla|CORRECT
+E|Przy pomocy klucza prywatnego|CORRECT
+F|Przy pomocy karty identyfikacyjnej
+G|Na podstawie pliku .rhosts|CORRECT
+
+Q|26|Jakie mozliwosci oferuje protokol AH:
+A|Kontrole adresow MAC
+B|Kompresje danych
+C|Szyfrowanie danych
+D|Kontrole integralnosci danych|CORRECT
+E|Szyfrowanie adresow MAC
+F|Autentykacje|CORRECT
+
+Q|27|Co pozwala zweryfikowac SPF:
+A|Czy serwer, ktory nawiazal polaczenie ma prawo nadawac listy z takim adresem odbiorcy
+B|Czy nadawca jest rzeczywiscie wlascicielem adresu wymienionego jako adres nadawcy
+C|Czy serwer, ktory nawiazal polaczenie ma prawo nadawac listy z takim adresem nadawcy|CORRECT
+D|Czy serwer, ktory przyjmuje polaczenie ma prawo otrzymywac listy z takim adresem odbiorcy
+E|Czy serwer, ktory przyjmuje polaczenie ma prawo otrzymywac listy z takim adresem nadawcy
+F|Czy odbiorca jest rzeczywiscie wlascicielem adresu wymienionego jako adres odbiorcy
+
+Q|28|Co oznacza rekord SPF b.com. IN TXT "v=spf1 ip4:1.2.3.4/24 a:mx.com -all":
+A|Listy z adresami ktos@b.com maja prawo nadawac komputery o adresach IP: 1.2.3.0-1.2.3.255 oraz komputer a.com
+B|Listy z adresami ktos@b.com maja prawo nadawac komputery o adresach IP: 1.2.3.0-1.2.3.255 oraz komputer mx.com|CORRECT
+C|Listy z adresami ktos@b.com maja prawo nadawac komputery o adresach IP: 1.2.3.0-1.2.3.255 z wyjatkiem komputera mx.com
+D|Listy z adresami ktos@a.com maja prawo nadawac komputery o adresach IP: 1.2.3.0-1.2.3.255 oraz komputer mx.com
+
+Q|29|Jaki tryb protokolu IPSec jest niezbedny do realizacji polaczenia siec-siec:
+A|Tryb tunelowy|CORRECT
+B|Tryb transportowy
+C|Tryb wielouzytkownikowy
+D|Tryb seryjny
+E|Tryb rownolegly
+
+Q|30|Co zawiera plik .ssh/authorized_keys:
+A|Liste kluczy publicznych znanych maszyn zdalnych
+B|Liste kluczy prywatnych znanych maszyn zdalnych
+C|Liste kluczy publicznych uzytkownikow zdalnych, ktorym zezwalamy na dostep bez podawania hasla|CORRECT
+D|Liste kluczy prywatnych uzytkownikow zdalnych, ktorym zezwalamy na dostep bez podawania hasla
+
+Q|31|Jakie mozliwosci oferuje protokol PPTP:
+A|Tryb maszyna-maszyna|CORRECT
+B|Autentykacje|CORRECT
+C|Szyfrowanie danych|CORRECT
+D|Tryb siec-siec
+E|Tryb maszyna-siec|CORRECT
+
+Q|32|Tunelowanie portow lokalnych umozliwia:
+A|Polaczenie ze zdalnego klienta do lokalnego serwera
+B|Polaczenie lokalnego klienta do lokalnego serwera
+C|Polaczenie zdalnego klienta do zdalnego serwera
+D|Polaczenie lokalnego klienta do zdalnego serwera|CORRECT
+
+Q|33|Na powstawanie opoznien w transmisji glosu w sieciach komputerowych wplyw maja:
+A|Rodzaj zastosowanego standardu kodowania mowy|CORRECT
+B|Czas podniesienia sluchawki przez abonenta
+C|Czas serializacji|CORRECT
+D|Czas propagacji w medium transmisyjnym|CORRECT
+
+Q|34|Pytanie 34 Opcje odpowiedzi dla pytania 34 (tutaj był pusty plik txt)
+
+Q|35|Jakie tryby pracy moga wystepowac w wirtualnych sieciach prywatnych:
+A|Siec --- siec|CORRECT
+B|Maszyna --- maszyna|CORRECT
+C|Czlowiek --- siec
+D|Maszyna --- Internet
+E|Czlowiek --- Internet
+F|Siec --- Internet
+G|Czlowiek --- maszyna
+H|Maszyna --- siec|CORRECT
+
+Q|36|Autoryzacja w SNMPv1 bazuje na:
+A|Community|CORRECT
+B|Certyfikacie cyfrowym
+C|Koncie i hasle uzytkownika
+D|Adresie IP
+
+Q|37|Jaki jest cel uruchomienia serwera buforujacego i autorytatywnego na osobnych maszynach:
+A|Umozliwia to zabezpieczenie serwera autorytatywnego przed atakami DoS pochodzacymi z sieci zewnetrznej
+B|Umozliwia to zabezpieczenie serwera autorytatywnego przed atakami DoS pochodzacymi z sieci wewnetrznej
+C|Umozliwia to zabezpieczenie serwera buforujacego przed atakami DoS pochodzacymi z sieci wewnetrznej
+D|Umozliwia to zabezpieczenie serwera buforujacego przed atakami DoS pochodzacymi z sieci zewnetrznej|CORRECT
+
+Q|38|Co zawiera plik .ssh/known_hosts:
+A|Liste kluczy prywatnych znanych maszyn zdalnych
+B|Liste kluczy prywatnych maszyny lokalnej
+C|Liste kluczy publicznych maszyny lokalnej
+D|Liste kluczy publicznych znanych maszyn zdalnych|CORRECT
+
+Q|39|Jakie problemy wiaza sie z transmisja glosu w sieciach komputerowych:
+A|Zmiennosc opoznienia|CORRECT
+B|Zmienna pojemnosc transmisyjna sieci|CORRECT
+C|Opoznienia transmisyjne|CORRECT
+D|Utrata pakietow|CORRECT
+
+Q|40|Jakie naglowki sa sprawdzane przez Sender-ID przy wykorzystaniu zakresu PRA:
+A|Sender-ID
+B|Resent-From|CORRECT
+C|Error-Path
+D|Sender|CORRECT
+E|From|CORRECT
+F|Return-Path|CORRECT
+G|Received|CORRECT
+H|Date
+I|Reply-To
+J|Resent-Sender|CORRECT
+K|To
+
+Q|41|Protokół RTP (Real Time Protocol) zapewnia:
+A|identyfikację typu przesyłanych danych|CORRECT
+B|zarządzanie transmisjami mutimedialnymi
+C|znaczniki czasowe i numerację pakietów|CORRECT
+D|niezawodne dostarczenie pakietów głosowych
