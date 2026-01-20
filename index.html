@@ -314,14 +314,13 @@
                 
                 <div class="question-number" id="questionNumber">Question #1</div>
                 <div class="question-text" id="questionText"></div>
-                <div class="question-hint hidden" id="questionHint">(Select all correct answers)</div>
                 
                 <div id="answersContainer"></div>
                 
                 <div class="result-message hidden" id="resultMessage"></div>
                 
                 <div class="nav-buttons">
-                    <button class="btn btn-check hidden" id="checkBtn" onclick="checkAnswer()">Check Answer</button>
+                    <button class="btn btn-check" id="checkBtn" onclick="checkAnswer()">Check Answer</button>
                     <button class="btn btn-success hidden" id="nextBtn" onclick="nextQuestion()">Next Question</button>
                 </div>
             </div>
@@ -464,63 +463,42 @@
             document.getElementById('questionNumber').textContent = `Question #${question.number}`;
             document.getElementById('questionText').textContent = question.text;
             
-            // Show/hide multiple choice hint
-            const hintEl = document.getElementById('questionHint');
-            if (question.isMultipleChoice) {
-                hintEl.classList.remove('hidden');
-            } else {
-                hintEl.classList.add('hidden');
-            }
-            
-            // Shuffle and create answer elements
+            // Shuffle and create checkboxes for all questions
             const shuffledAnswers = shuffle(question.answers);
             const container = document.getElementById('answersContainer');
             container.innerHTML = '';
             
-            if (question.isMultipleChoice) {
-                // Create checkboxes for multiple choice
-                shuffledAnswers.forEach(answer => {
-                    const div = document.createElement('div');
-                    div.className = 'answer-checkbox';
-                    div.dataset.letter = answer.letter;
-                    div.onclick = function(e) {
-                        if (!answered && e.target.type !== 'checkbox') {
-                            const checkbox = this.querySelector('input[type="checkbox"]');
-                            checkbox.checked = !checkbox.checked;
-                            onCheckboxChange();
-                        }
-                    };
-                    
-                    const checkbox = document.createElement('input');
-                    checkbox.type = 'checkbox';
-                    checkbox.id = `answer-${answer.letter}`;
-                    checkbox.onchange = onCheckboxChange;
-                    
-                    const label = document.createElement('label');
-                    label.setAttribute('for', `answer-${answer.letter}`);
-                    label.textContent = `${answer.letter}. ${answer.text}`;
-                    label.style.cursor = 'pointer';
-                    label.style.flex = '1';
-                    
-                    div.appendChild(checkbox);
-                    div.appendChild(label);
-                    container.appendChild(div);
-                });
-                document.getElementById('checkBtn').classList.remove('hidden');
-                document.getElementById('checkBtn').disabled = true;
-            } else {
-                // Create buttons for single choice
-                shuffledAnswers.forEach(answer => {
-                    const btn = document.createElement('button');
-                    btn.className = 'answer-btn';
-                    btn.textContent = `${answer.letter}. ${answer.text}`;
-                    btn.onclick = () => submitSingleAnswer(answer.letter);
-                    btn.dataset.letter = answer.letter;
-                    container.appendChild(btn);
-                });
-                document.getElementById('checkBtn').classList.add('hidden');
-            }
+            shuffledAnswers.forEach(answer => {
+                const div = document.createElement('div');
+                div.className = 'answer-checkbox';
+                div.dataset.letter = answer.letter;
+                div.onclick = function(e) {
+                    if (!answered && e.target.type !== 'checkbox') {
+                        const checkbox = this.querySelector('input[type="checkbox"]');
+                        checkbox.checked = !checkbox.checked;
+                        onCheckboxChange();
+                    }
+                };
+                
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `answer-${answer.letter}`;
+                checkbox.onchange = onCheckboxChange;
+                
+                const label = document.createElement('label');
+                label.setAttribute('for', `answer-${answer.letter}`);
+                label.textContent = `${answer.letter}. ${answer.text}`;
+                label.style.cursor = 'pointer';
+                label.style.flex = '1';
+                
+                div.appendChild(checkbox);
+                div.appendChild(label);
+                container.appendChild(div);
+            });
             
+            // Show check button and disable it initially
+            document.getElementById('checkBtn').classList.remove('hidden');
+            document.getElementById('checkBtn').disabled = true;
             document.getElementById('resultMessage').classList.add('hidden');
             document.getElementById('nextBtn').classList.add('hidden');
         }
@@ -532,14 +510,9 @@
             document.getElementById('checkBtn').disabled = !anyChecked;
         }
         
-        function submitSingleAnswer(letter) {
-            if (answered) return;
-            selectedAnswers = new Set([letter]);
-            submitAnswer();
-        }
-        
         function checkAnswer() {
             if (answered) return;
+            answered = true;
             
             // Collect selected answers from checkboxes
             selectedAnswers = new Set();
@@ -548,45 +521,28 @@
                 selectedAnswers.add(div.dataset.letter);
             });
             
-            submitAnswer();
-        }
-        
-        function submitAnswer() {
-            answered = true;
-            
             const question = currentQuestions[currentIndex];
             const correctSet = new Set(question.correctLetters);
             const isCorrect = selectedAnswers.size === correctSet.size && 
                              [...selectedAnswers].every(letter => correctSet.has(letter));
             
-            // Update UI based on question type
-            if (question.isMultipleChoice) {
-                const checkboxDivs = document.querySelectorAll('.answer-checkbox');
-                checkboxDivs.forEach(div => {
-                    div.classList.add('disabled');
-                    const checkbox = div.querySelector('input[type="checkbox"]');
-                    checkbox.disabled = true;
-                    
-                    const letter = div.dataset.letter;
-                    if (correctSet.has(letter)) {
-                        div.classList.add('correct');
-                    } else if (selectedAnswers.has(letter)) {
-                        div.classList.add('wrong');
-                    }
-                });
-                document.getElementById('checkBtn').classList.add('hidden');
-            } else {
-                const buttons = document.querySelectorAll('.answer-btn');
-                buttons.forEach(btn => {
-                    btn.disabled = true;
-                    const btnLetter = btn.dataset.letter;
-                    if (correctSet.has(btnLetter)) {
-                        btn.classList.add('correct');
-                    } else if (selectedAnswers.has(btnLetter) && !isCorrect) {
-                        btn.classList.add('wrong');
-                    }
-                });
-            }
+            // Update UI - highlight correct and wrong answers
+            const checkboxDivs = document.querySelectorAll('.answer-checkbox');
+            checkboxDivs.forEach(div => {
+                div.classList.add('disabled');
+                const checkbox = div.querySelector('input[type="checkbox"]');
+                checkbox.disabled = true;
+                
+                const letter = div.dataset.letter;
+                if (correctSet.has(letter)) {
+                    div.classList.add('correct');
+                } else if (selectedAnswers.has(letter)) {
+                    div.classList.add('wrong');
+                }
+            });
+            
+            // Hide check button
+            document.getElementById('checkBtn').classList.add('hidden');
             
             // Show result message
             const resultMsg = document.getElementById('resultMessage');
